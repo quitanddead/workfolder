@@ -1,0 +1,54 @@
+respawn = "BASE";
+respawndelay = 5;
+onLoadMission= "DayZ Epoch";
+OnLoadIntro = "http://epochmod.com/";
+OnLoadIntroTime = False;
+OnLoadMissionTime = False;
+disabledAI = true;
+disableChannels[]={0,2,6}; //0 = Global 1 = Side 2 = Command 3 = Group 4 = Vehicle 5 = Direct 6 = System
+enableItemsDropping = 0;
+
+briefing = 0;
+debriefing = 0;
+
+onPauseScript = "";
+loadScreen = "IMG\loadscreen.jpg";
+
+class Header
+{
+ gameType = COOP;
+ minPlayers = 1;
+ maxPlayers = 100;
+};
+
+aiKills = 1;
+diagRadio = 1;
+diagHit = 1;
+
+//SFX
+class CfgSounds
+{
+    sounds[] = {};
+    class Brief_Open_Sound
+    {
+        name = "Brief_Open_Sound";
+        sound[] = {SFX\MysteryBrief\brief_open.ogg,0.4,1};
+        titles[] = {};
+    };
+	class radio
+    {
+    name="radio";
+    sound[]={SFX\Radio\radio.ogg,1,1};
+    titles[] = {};
+    };
+	class carlock
+	{
+	name = "carlock";
+	sound[] = {SFX\Car\carlock.ogg,1.0,1};
+	titles[] = {};
+	};	
+};
+
+//Loads all hpp files
+#include "CONFIGS\MissionInit.hpp"
+
