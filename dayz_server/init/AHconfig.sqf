@@ -161,7 +161,7 @@
 	"RscDisplaySpawnSelecter","RscWatchMoreDir","#GETIN","RscStatus",
 	"RscCombatMode","RscFormations","RscTeam","RscSelectTeam","RscReply",
 	"RscCallSupport","#ACTION","#CUSTOM_RADIO","RscRadio","RscGroupRootMenu",
-	"BTC_Hud","PlotManagement"
+	"BTC_Hud","PlotManagement","#USER:colouroptionsmenu"
 ];
 
 // BTC_Hud					Скрипт "BTC_Logistic" - HUD

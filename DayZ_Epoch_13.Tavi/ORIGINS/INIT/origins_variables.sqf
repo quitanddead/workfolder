@@ -3,7 +3,7 @@ DZE_Use_PlotPole4Life = false;
 DZE_Origins_LockUnlock_Distance = 20;
 DZE_Origins_Build_Distance = 10;	
 DZE_Origins_Container = "MedBox0";
-DZE_Origins_Build_Tools_Require = ["ItemToolbox","ItemEtool"];
+DZE_Origins_Build_Tools_Require = ["ItemToolbox","ItemEtool","ItemSledge"];
 DZE_Origins_Humanity = 
 [
 	["Hero1",2900],
@@ -14,24 +14,51 @@ DZE_Origins_Humanity =
 	["Bandit3",-15000]
 ];
 DZE_Origins_House1 = [
+	["PartWoodPile",20],
+	["CinderBlocks",20],
+	["MortarBucket",5],
+	["PartGeneric",5],
 	["ItemComboLock",1]
 ];
 DZE_Origins_House2 = [
+	["CinderBlocks",25],
+	["PartWoodPile",25],
+	["MortarBucket",5],
+	["PartGeneric",5],
 	["ItemComboLock",1]
 ];
 DZE_Origins_House3 = [
+	["CinderBlocks",30],
+	["PartWoodPile",30],
+	["MortarBucket",5],
+	["PartGeneric",5],
 	["ItemComboLock",1]
 ];
 DZE_Origins_SG = [
+	["CinderBlocks",40],
+	["PartWoodPile",40],
+	["MortarBucket",10],
+	["PartGeneric",10],
 	["ItemComboLock",1]
 ];
 DZE_Origins_LG = [
+	["CinderBlocks",40],
+	["PartWoodPile",40],
+	["MortarBucket",20],
+	["PartGeneric",10],
 	["ItemComboLock",1]
 ];
 DZE_Origins_King = [
+	["CinderBlocks",50],
+	["MortarBucket",50],
+	["PartGeneric",25],
 	["ItemComboLock",1]
 ];
 DZE_Origins_Stronghold = [
+	["CinderBlocks",50],
+	["PartWoodPile",50],
+	["MortarBucket",25],
+	["PartGeneric",25],
 	["ItemComboLock",2]
 ];
 

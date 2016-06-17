@@ -1,4 +1,4 @@
-call compile preprocessFileLineNumbers "custom\EVD\EVD_common.sqf";
+call compile preprocessFileLineNumbers "EVD\EVD_common.sqf";
 
 if (dayz_combat == 1) exitwith { cutText ["\n\nYou cannot build while in combat!", "PLAIN DOWN"] };
 

@@ -84,7 +84,6 @@ execVM "DAYZ_CODE\COMPILE\playerHud.sqf";//AsReMix Player HUD
     fnc_usec_damageHandler = compile preprocessFileLineNumbers "DAYZ_CODE\COMPILE\fn_damageHandler.sqf";
 	//Remote Messages
 	_nil = [] execVM "DAYZ_CODE\COMPILE\remote_message.sqf";
-
 };
 
 execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";

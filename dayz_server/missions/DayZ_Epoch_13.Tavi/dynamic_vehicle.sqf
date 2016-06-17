@@ -135,7 +135,7 @@ AllowedVehiclesList = [
 ["ori_dc3",4],
 ["ori_pragaCopter_yellow",4],
 ["ori_p85_originsmod_CUCV",4],
-["ORI_gunship_helicopter",4],
+["ori_gunship_helicopter",4],
 ["ori_submarine",4],
 ["ori_p85_originsmod_cucv_pickup",4]
 ];
